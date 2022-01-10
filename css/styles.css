@@ -301,8 +301,17 @@ p {
 }
 
 .home_hero-heading h1 {
-    font: 5.375rem/87% "Abril Fatface", serif;
+    font: 3rem/87% "Abril Fatface", serif;
     color: var(--white);
+    margin-bottom: 1.25rem;
+}
+
+.home_hero-heading h1:nth-of-type(3) {
+    margin-bottom: 0rem;
+}
+
+.gold {
+    color: var(--copper) !important;
 }
 
 .home_case-study_section {
@@ -328,6 +337,15 @@ p {
     border-left: 2px solid var(--white);
     padding-left: 1rem;
     margin-bottom: .5rem;
+}
+
+.home_case-study_image {
+    transition: var(--transition);
+}
+
+.home_case-study_image:hover {
+    opacity: .5;
+    transition: var(--transition);
 }
 
 .home_case-study_image img {
@@ -543,7 +561,7 @@ p {
     line-height: 81%;
 }
 
-.case-study_list_landmark-title {
+.landmark-title {
     font-size: 4.625rem;
 }
 
@@ -1092,7 +1110,7 @@ footer {
     }
 
     .home_hero-heading h1 {
-        font-size: 8rem;
+        font-size: 5rem;
     }
 
     .home_case-study_section {
@@ -1474,10 +1492,6 @@ footer {
     .mc-title {
         font-size: 6.39rem;
         line-height: 86%;
-    }
-
-    .landmark-title {
-        font-size: 4.73rem;
     }
 
     .bk-title {
@@ -1955,7 +1969,12 @@ footer {
 =============== */
 
     .home_hero-heading h1 {
-        font-size: 10rem;
+        font-size: 7rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .home_hero-heading h1:nth-of-type(3) {
+        margin-bottom: 0rem;
     }
 
     
